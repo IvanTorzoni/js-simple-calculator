@@ -4,6 +4,7 @@ const inputValue = document.getElementById("user-input");
 // Gestione operatori
 // Cerco gli operatori nel file HTML
 const calculate = document.querySelectorAll(".operations").forEach(function (item) {
+    // Aggiungo l'evento al click ai pulsanti delle operazioni
     item.addEventListener("click", function (e) {
 
         // Creo una variabile per l'ultimo valore (se inseriamo nella calcolatrice un numero e un operatore, premendo "=" non darà nessun errore)
